@@ -1,0 +1,25 @@
+body{
+    background-color:rgba(135, 192, 222, 0.2);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color:#242323; */
+}
+
+.image{
+    width: 250px;
+    margin-top: 20px;
+}
+
+@media (max-width: 770x){
+    .container{
+        margin: 0 10%;
+    }
+
+    .image{
+        width: 100%;
+    }
+}
